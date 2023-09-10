@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- <link rel="stylesheet" href="/Mylogin/About.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<style>
+   *{
+      margin: 0;
+      padding: 0;
+  }
+  .nav{
+      width: 100%;
+      height: 60px;
+      background-color: rgb(19, 19, 19);
+      color: aliceblue;
+      font-size: 22px;
+      justify-items:center;
+      text-align: left;
+      position: fixed;
+  }
+  #logo{
+      color: chocolate;
+      font-size: 34px;  
+      
+  }
+  #a2{
+      margin-right: 120px;
+      margin-left: 80px;
+      text-align: left;
+      text-decoration: none;
+      color: #fff;
+  }
+   
+  
+  
+  .event {
+      width: 30%;
+      margin-right: 1%;
+      margin-left: 2%;
+      float: left;
+      display: inline;
+  }
+  .event div {
+      padding:10px;
+      background-color: #f0f3fa;
+  }
+  .event ul li {
+      margin-bottom: 20px;
+      width: 100%;
+      float: left;
+  }
+  
+  .about-us img {
+      width:24%;
+      float:left;
+  }
+  .about-us div {
+      width:70%;
+      margin-left:20px;
+      float:left;
+      line-height:35px;
+  }
+  
+  .testimonial {
+      width: 380px;
+      float: left;
+      margin-right:10px;
+  }
+  .testimonial-text {
+      background: #f0f3fa;
+      padding: 20px;
+      line-height: 35px;
+      border-radius: 10px;
+  }
+  .testimonial-detail {
+      float:left;
+      margin-top:10px;
+  }
+  .testimonial-img {
+      float:left;
+  }
+  .testimonial-img img {
+      border-radius:50%;
+  }
+  .testimonial-name {
+      margin-left:10px;
+      float:left;
+  }
+  .testimonial-name h5 {
+      font-size:18px;
+      margin-top:8px;
+  }
+  
+  .footer {
+      background-color:rgb(19, 19, 19);
+      padding:40px 0px;
+      width:100%;
+      height: 300px;
+      float:left;
+  }
+  .footer-sect {
+      width:33%;
+      float:left;
+      
+  }
+  .footer-sect h2 {
+      color:#fff;
+      margin-bottom: 20px;
+      margin-left: 10%;
+      padding:0px 30px 0px 0px;
+      
+      
+  }
+  .footer-sect p {
+      color: #fff;
+      line-height: 22px;
+      padding:10px 30px 20px 50px;
+      
+      
+  }
+  .footer-menu{
+      padding:10px 30px 20px 65px;
+  }
+  .footer-menu li {
+      width: 40%;
+      float: left;
+      margin-bottom: 10px;
+      
+      
+  }
+  .footer-menu li a {
+      color:#fff;
+      text-decoration: none;
+  }
+  .footer-contact{
+      padding:0px 30px 20px 55px;
+  }
+  .footer-contact li {
+      margin-bottom:15px;
+      list-style: none;
+      color: #fff;
+  }
+  .container {
+      width: 100%;
+      margin:0px auto;
+      margin-top: 10%;
+      
+  }
+  .main-section {
+      width: 100%;
+      float: left;
+      padding:50px 0px 40px 0px;
+  }
+  .heading {
+      font-size: 22px;
+      font-weight: 500;
+      border-bottom: 1px solid chocolate;
+      margin-bottom:25px;
+      color: chocolate;
+  }
+  .social{
+      /* height: 300vh; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #a1{
+      height: 65px;
+      width: 65px;
+      background-color: rgba(175, 175, 175, 0);
+      border-radius: 50px;
+      text-align: center;
+      margin: 50px 10px 10px 10px ;
+      line-height: 75px;
+      
+      font-size: 18px;
+      border: 0.5px solid rgba(221, 219, 219, 0.62);
+  }
+  #a1 i{
+      transition: all 0.2s ease-out;
+  }
+  #a1 i:hover {
+     
+      transform: scale(1.2);
+      box-shadow: none;
+  }
+  #a1:hover {
+      transition-delay: 0.1s;
+      box-shadow: 3px 2px 8px #2b90cf;
+  }
+  
+  
+  .fa-facebook{
+      color: #4267B2;
+  }
+  
+  .fa-youtube{
+      color: #c4302b;
+  }
+  .fa-instagram{
+      color: rgb(228, 64, 95);
+  }
+  .fa-twitter{
+      color: rgb(16, 155, 215);
+  }
+  .fa-linkedin{
+      color: #0A66C2;
+  }
+</style>
+<body>
+    <div class="nav">
+        <a id="logo">Kaushalya</a>
+        <a id="a2">Home</a>
+        <a id="a2">Contact Us</a>
+        <a id="a2" href="/Clg/Mylogin/course.html">Course</a>
+        <a id="a2">Event</a>
+        <a id="a2" href="/login.html" target="_blank">Login</a>
+    </div>
+    <br>    
+    
+    <div class="container">
+
+            
+        <div class="main-section about-us">
+            <img src="images/principal.jpg" >
+            <div>
+               <h2 class="heading">About Our Chairman</h2>
+               <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+               <img src="images/sign.png">
+            </div>
+         </div>
+        
+        <div class="main-section">
+       
+           <div class="event">
+              <h2 class="heading">President of KSU</h2>
+              <div>
+                <scrollamount="7" style="height:400px;">
+                   <ul>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                      <li> Desktop publishing software like Aldus PageMaker including of Lorem Ipsum</li>
+                      <li> Many desktop publishing packages and web page editors now use</li>
+                      <li> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</li>
+                      <li> Welcome To The Best Private University in MP</li>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                      <li> Desktop publishing software like Aldus PageMaker including versions of Ipsum</li>
+                   </ul>
+                </marquee>
+             </div>
+           </div>
+           
+           <div class="event">
+              <h2 class="heading">Director General of KSU</h2>
+              <div>
+                <scrollamount="7" style="height:400px;">
+                   <ul>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                      <li> Desktop publishing software like Aldus PageMaker including of Lorem Ipsum</li>
+                      <li> Many desktop publishing packages and web page editors now use</li>
+                      <li> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</li>
+                      <li> Welcome To The Best Private University in MP</li>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                      <li> Desktop publishing software like Aldus PageMaker including versions of Ipsum</li>
+                   </ul>
+                </marquee>
+             </div>
+           </div>
+          
+           <div class="event">
+              <h2 class="heading">Registrar of KSU</h2>
+              <div>
+                <scrollamount="7" style="height:500px;">
+                   <ul>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                      <li> Desktop publishing software like Aldus PageMaker including of Lorem Ipsum</li>
+                      <li> Many desktop publishing packages and web page editors now use</li>
+                      <li> Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</li>
+                      <li> Welcome To The Best Private University in MP</li>
+                      <li> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                      <li> Desktop publishing software like Aldus PageMaker including versions of Ipsum</li>
+                   </ul>
+                </marquee>
+             </div>
+              
+           </div>
+        </div>
+
+    <div class="footer">
+        
+           <div class="footer-sect">
+              <h2>Best Institute For Education</h2>
+              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+            
+           </div>
+           <div class="footer-sect">
+              <h2>Quick Links</h2>
+              <ul class="footer-menu">
+                 <li><a href="#"> > Home</a></li>
+                 <li><a href="#"> > About us</a></li>
+                 <li><a href="#"> > Tutorial</a></li>
+                 <li><a href="#"> > Event</a></li>
+                 <li><a href="#"> > Gallery</a></li>
+                 <li><a href="#"> > Press Release</a></li>
+                 <li><a href="#"> > Courses</a></li>
+                 <li><a href="#"> > Contact Us</a></li>
+              </ul>
+           </div>
+           <div class="footer-sect">
+              <h2>Contact Info</h2>
+              <ul class="footer-contact">
+                 <li><b>Email :</b>admission@kaushalyaskilluniversity.ac.in </li>
+                 <li><b>Call :</b> Admission Helpline: +91 63560 37680   </li>
+                 <li><b>Fax :</b> Office No. 079-4001-3700 </li>
+                 <li><b>Website :</b> https://www.dezven.com </li>
+              </ul>
+           </div>
+           <div class="social" style="clear:left">
+            <a id="a1" href="https://www.facebook.com/KSUGOG?mibextid=ZbWKwL" target="_blank">
+                <i class="fa fa-2x fa-facebook"> </i>
+                </a>
+    
+                <a id="a1" herf="https://youtube.com/@ksugog" target="_blank">
+                 <i class="fa fa-2x fa-youtube"></i>
+                </a>
+    
+                <a id="a1" href="https://instagram.com/ksugog?igshid=YmM0MjE2YWMzOA==" target="_blank">
+                    <i class="fa fa-2x fa-instagram"></i>
+                </a>
+    
+                <a id="a1" href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den-in" target="_blank">
+                    <i class="fa fa-2x fa-twitter"></i>
+                </a>
+                <a id="a1" href="https://www.linkedin.com/company/kaushalya-the-skill-university/" target="_blank">
+                    <i class="fa  fa-2x fa-linkedin"></i>
+                </a>
+        </div>
+     </div>
+</body>
+</html>
